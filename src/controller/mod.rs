@@ -1,9 +1,0 @@
-pub mod web_ctrl;
-pub mod static_ctrl;
-pub mod pi_ctrl;
-pub mod goods_ctrl;
-pub mod contract_ctrl;
-pub mod action_ctrl;
-pub mod user_ctrl;
-pub mod cart_ctrl;
-pub mod order_ctrl;
