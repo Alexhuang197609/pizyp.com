@@ -1,0 +1,199 @@
+{
+  "welcome": {
+    "guestTag": "🎉Invitado🎉",
+    "loginTip": "Inicia sesión: ",
+    "loginBtn": "Iniciar sesión con Pi",
+    "tipBtn": "Dar propina de 0,01 TestPi"
+  },
+  "loading": {
+    "community": "Cargando datos de la comunidad..."
+  },
+  "error": {
+    "loadFail": "Error al cargar, actualiza la página"
+  },
+  "videoTip": "Tu navegador no admite la reproducción de vídeo",
+  "action": {
+    "like": "Me gusta",
+    "comment": "Comentar"
+  },
+  "loginAlert": {
+    "piBrowser": "¡Abre la página en el Navegador Pi!",
+    "success": "Inicio de sesión exitoso!",
+    "fail": "Error al iniciar sesión: ",
+    "needLogin": "Inicia sesión primero"
+  },
+  "payAlert": {
+    "approveFail": "Fallo al aprobar, código de estado: ",
+    "approveErr": "Error en la solicitud de aprobación: ",
+    "completeFail": "Fallo al completar, código de estado: ",
+    "completeErr": "Error en la solicitud de finalización: ",
+    "paySuccess": "✅ Proceso de pago finalizado",
+    "cancelPay": "Cancelado",
+    "payErr": "Error de pago: ",
+    "payFail": "Fallo en el pago: "
+  },
+  "tab": {
+    "community": "Comunidad",
+    "mall": "Tienda",
+    "contract": "Contrato inteligente",
+    "mine": "Mi perfil"
+  },
+  "shop": {
+    "title": "🏪 Tienda",
+    "loading": "Cargando productos...",
+    "stock": "Existencias: "
+  },
+  "shopDetail": {
+    "backText": "Volver a la tienda",
+    "pageTitle": "Detalles del producto",
+    "loading": "Cargando...",
+    "idError": "ID de producto inválido",
+    "fetchFail": "No se pudo obtener el producto",
+    "networkErr": "Error de red o API",
+    "spec": "Especificación: ",
+    "stock": "Existencias: ",
+    "sales": "Ventas: ",
+    "ship": "Envío: ",
+    "briefTitle": "Descripción breve",
+    "detailTitle": "Detalles del producto",
+    "cartBtn": "Añadir al carrito",
+    "buyBtn": "Comprar ahora",
+    "needLogin": "Inicia sesión primero",
+    "cartSuccess": "✅ Añadido al carrito!",
+    "cartFail": "❌ Fallo: ",
+    "orderSuccess": "✅ Pedido creado!\nN.º de pedido: ",
+    "orderAmount": "\nImporte: ",
+    "orderFail": "❌ Error al crear el pedido: "
+  },
+  "contract": {
+    "title": "📄 Contrato inteligente",
+    "loading": "Cargando datos del contrato...",
+    "statusLabel": "Estado: ",
+    "addrLabel": "Dirección del contrato: "
+  },
+  "browser": {
+    "loading": "Cargando datos de bloques...",
+    "invalidAddr": "Dirección de contrato inválida",
+    "tokenSuffix": "Contrato de token",
+    "addrLabel": "Dirección del contrato: ",
+    "descLabel": "Descripción: ",
+    "statusLabel": "Estado de ejecución: ",
+    "colAccount": "Cuenta",
+    "colOperation": "Operación",
+    "colLedgerTime": "Bloque / Hora"
+  },
+  "zodiacGame": {
+    "title": "Juego de adivinanza zodiacal",
+    "desc": "Juego de predicción en cadena, realiza apuestas, sortea y reclama premios mediante contratos inteligentes",
+    "personUnit": "jugadores",
+    "needDrawText": "Faltan {num} jugadores más para el sorteo automático",
+    "btnSelectTip": "Selecciona un signo zodiacal para apostar",
+    "btnBetFormat": "Apostar 1π en {name}",
+    "alertSelectZod": "Selecciona un signo zodiacal",
+    "alertCloseTip": "El contrato está implementado, esperamos el lanzamiento oficial de la API"
+  },
+  "addressTx": {
+    "backText": "Volver",
+    "pageTitle": "Registros de transacciones de la dirección",
+    "loading": "Cargando...",
+    "invalidAddr": "Dirección de billetera inválida",
+    "addrLabel": "Dirección de billetera",
+    "txCountText": "Total {num} transacciones",
+    "colAccount": "Cuenta",
+    "colOperation": "Operación",
+    "colLedgerTime": "Bloque / Hora"
+  },
+  "txDetail": {
+    "backText": "Volver",
+    "pageTitle": "Detalles de la transacción",
+    "infoTitle": "Información de la transacción",
+    "hashLabel": "Hash de transacción: ",
+    "ledgerLabel": "Bloque: ",
+    "timeLabel": "Hora de transacción: ",
+    "fromLabel": "Origen: ",
+    "toLabel": "Destino: ",
+    "amountLabel": "Importe: ",
+    "typeLabel": "Tipo de transacción: ",
+    "loading": "Cargando...",
+    "invalidHash": "Hash de transacción inválido"
+  },
+  "my": {
+    "pageTitle": "Centro de usuario",
+    "uidLabel": "uid: ",
+    "piNameLabel": "piname: ",
+    "walletLabel": "Billetera: ",
+    "miniNick": "Apodo",
+    "upiNum": "Saldo UPI",
+    "noSync": "Sin datos sincronizados",
+    "syncBtn": "Sincronizar con clave secreta de mini programa",
+    "cartMenu": "Carrito de compras",
+    "orderMenu": "Lista de pedidos",
+    "aboutMenu": "Sobre nosotros",
+    "noLoginTip": "No has iniciado sesión, por favor accede",
+    "piLoginBtn": "Iniciar sesión con Pi",
+    "modalTitle": "Sincronizar datos con clave secreta del mini programa",
+    "inputPlaceholder": "Pega el openid / clave de sincronización",
+    "cancelBtn": "Cancelar",
+    "confirmSyncBtn": "Confirmar sincronización",
+    "emptyKeyAlert": "Pega la clave de sincronización",
+    "syncSuccessAlert": "Datos del mini programa sincronizados correctamente",
+    "syncFailAlert": "Fallo al sincronizar",
+    "networkErrAlert": "Error en la solicitud de red",
+    "openInPiAlert": "Abre esta página en el Navegador Pi",
+    "loginSuccessAlert": "Inicio de sesión exitoso",
+    "loginFailPrefix": "Error al iniciar sesión: "
+  },
+  "cart": {
+    "pageTitle": "Mi carrito",
+    "loginEmptyTip": "Inicia sesión primero en el Centro de Usuario",
+    "emptyTip": "Tu carrito está vacío~",
+    "noSpec": "Sin especificación",
+    "totalText": "Total: ",
+    "settleBtn": "Proceder al pago",
+    "changeNumFailAlert": "No se pudo modificar la cantidad",
+    "needLoginAlert": "Inicia sesión primero",
+    "emptyCartAlert": "No hay productos en el carrito",
+    "orderSuccessPrefix": "Pedido creado!\nN.º de pedido: ",
+    "orderAmountSuffix": "\nTotal: ",
+    "orderFailPrefix": "Fallo al realizar el pago: ",
+    "networkErrAlert": "Error en la solicitud de red"
+  },
+  "orderList": {
+    "pageTitle": "Centro de pedidos",
+    "noLoginTip": "No has iniciado sesión, ve al Centro de Usuario para acceder con Pi",
+    "orderNoLabel": "N.º de pedido: ",
+    "createTimeLabel": "Fecha de creación: ",
+    "totalLabel": "Total: ",
+    "delBtn": "Eliminar pedido",
+    "emptyTip": "Sin registros de pedidos",
+    "needLoginAlert": "Inicia sesión para realizar esta operación",
+    "delConfirmTip": "¿Confirmas eliminar este pedido pendiente? Los datos no se podrán recuperar",
+    "delSuccessAlert": "Eliminado correctamente",
+    "networkFailAlert": "Fallo en la solicitud de red, inténtalo más tarde"
+  },
+  "orderDetail": {
+    "pageTitle": "Detalles del pedido",
+    "statusLabel": "Estado: ",
+    "orderNoLabel": "N.º de pedido: ",
+    "createTimeLabel": "Fecha de creación: ",
+    "goodsTitle": "Lista de productos",
+    "specLabel": "Especificación: ",
+    "noSpec": "Ninguna",
+    "subTotalLabel": "Subtotal: ",
+    "actualPayLabel": "Importe pagado: ",
+    "payLoadingText": "Procesando el pago...",
+    "payBtnText": "Pagar ahora",
+    "loginTipText": "Inicia sesión primero en el Centro de Usuario",
+    "emptyTipText": "El pedido no existe o falló la carga",
+    "payMemoPrefix": "Pago de pedido: ",
+    "openInPiAlert": "Abre la página en el Navegador Pi",
+    "paySuccessAlert": "✅ Pago realizado, estado del pedido actualizado",
+    "payCancelAlert": "Pago cancelado",
+    "payErrorPrefix": "Error de pago: ",
+    "payStartFailPrefix": "Fallo al iniciar el pago: "
+  },
+  "about": {
+    "loading": "Cargando video..."
+  },
+  "tipMemo": "Propina: {orderId}"
+}

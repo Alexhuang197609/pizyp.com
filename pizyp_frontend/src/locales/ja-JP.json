@@ -1,0 +1,199 @@
+{
+  "welcome": {
+    "guestTag": "🎉ゲスト🎉",
+    "loginTip": "ログインしてください：",
+    "loginBtn": "Piでログイン",
+    "tipBtn": "0.01 TestPiのチップを送る"
+  },
+  "loading": {
+    "community": "コミュニティデータを読み込み中..."
+  },
+  "error": {
+    "loadFail": "読み込みに失敗しました。ページを更新してください"
+  },
+  "videoTip": "お使いのブラウザは動画再生に対応していません",
+  "action": {
+    "like": "いいね",
+    "comment": "コメント"
+  },
+  "loginAlert": {
+    "piBrowser": "Piブラウザでページを開いてください！",
+    "success": "ログイン成功！",
+    "fail": "ログイン失敗：",
+    "needLogin": "先にログインしてください"
+  },
+  "payAlert": {
+    "approveFail": "承認処理失敗、ステータスコード：",
+    "approveErr": "承認リクエストエラー：",
+    "completeFail": "完了処理失敗、ステータスコード：",
+    "completeErr": "完了リクエストエラー：",
+    "paySuccess": "✅ お支払い完了",
+    "cancelPay": "キャンセルしました",
+    "payErr": "お支払いエラー：",
+    "payFail": "お支払い失敗："
+  },
+  "tab": {
+    "community": "コミュニティ",
+    "mall": "ショップ",
+    "contract": "スマートコントラクト",
+    "mine": "マイページ"
+  },
+  "shop": {
+    "title": "🏪 ショップ",
+    "loading": "商品データを読み込み中...",
+    "stock": "在庫："
+  },
+  "shopDetail": {
+    "backText": "ショップに戻る",
+    "pageTitle": "商品詳細",
+    "loading": "読み込み中...",
+    "idError": "商品IDが不正です",
+    "fetchFail": "商品情報の取得に失敗しました",
+    "networkErr": "ネットワークまたはAPIエラー",
+    "spec": "仕様：",
+    "stock": "在庫：",
+    "sales": "販売数：",
+    "ship": "発送：",
+    "briefTitle": "商品概要",
+    "detailTitle": "商品詳細情報",
+    "cartBtn": "カートに追加",
+    "buyBtn": "今すぐ購入",
+    "needLogin": "先にログインしてください",
+    "cartSuccess": "✅ カートに追加しました！",
+    "cartFail": "❌ 失敗：",
+    "orderSuccess": "✅ 注文作成完了！\n注文番号：",
+    "orderAmount": "\n金額：",
+    "orderFail": "❌ 注文作成失敗："
+  },
+  "contract": {
+    "title": "📄 スマートコントラクト",
+    "loading": "コントラクトデータ読み込み中...",
+    "statusLabel": "状態：",
+    "addrLabel": "コントラクトアドレス："
+  },
+  "browser": {
+    "loading": "ブロックデータ読み込み中...",
+    "invalidAddr": "無効なコントラクトアドレス",
+    "tokenSuffix": "トークンコントラクト",
+    "addrLabel": "コントラクトアドレス：",
+    "descLabel": "説明文：",
+    "statusLabel": "稼働状態：",
+    "colAccount": "アカウント",
+    "colOperation": "操作",
+    "colLedgerTime": "ブロック / 時間"
+  },
+  "zodiacGame": {
+    "title": "十二支占いゲーム",
+    "desc": "ブロックチェーン上の予想ゲーム。スマートコントラクトで投票、抽選、報酬受け取りが可能",
+    "personUnit": "参加者",
+    "needDrawText": "自動抽選まであと{num}人",
+    "btnSelectTip": "投票する十二支を選択してください",
+    "btnBetFormat": "{name}に1π投票",
+    "alertSelectZod": "十二支を選択してください",
+    "alertCloseTip": "コントラクトはデプロイ済み、公式API公開を待機中"
+  },
+  "addressTx": {
+    "backText": "戻る",
+    "pageTitle": "アドレス取引履歴",
+    "loading": "読み込み中...",
+    "invalidAddr": "無効なウォレットアドレス",
+    "addrLabel": "ウォレットアドレス",
+    "txCountText": "合計{num}件の取引",
+    "colAccount": "アカウント",
+    "colOperation": "操作",
+    "colLedgerTime": "ブロック / 時間"
+  },
+  "txDetail": {
+    "backText": "戻る",
+    "pageTitle": "取引詳細",
+    "infoTitle": "取引情報",
+    "hashLabel": "取引ハッシュ：",
+    "ledgerLabel": "ブロック高：",
+    "timeLabel": "取引時間：",
+    "fromLabel": "送信元：",
+    "toLabel": "受取先：",
+    "amountLabel": "金額：",
+    "typeLabel": "取引種別：",
+    "loading": "読み込み中...",
+    "invalidHash": "無効な取引ハッシュ"
+  },
+  "my": {
+    "pageTitle": "マイページ",
+    "uidLabel": "uid：",
+    "piNameLabel": "piname：",
+    "walletLabel": "ウォレット：",
+    "miniNick": "ニックネーム",
+    "upiNum": "UPI残高",
+    "noSync": "同期データなし",
+    "syncBtn": "ミニプログラムキーで一括同期",
+    "cartMenu": "ショッピングカート",
+    "orderMenu": "注文一覧",
+    "aboutMenu": "私たちについて",
+    "noLoginTip": "ログインしていません。ログインしてください",
+    "piLoginBtn": "Piログイン",
+    "modalTitle": "ミニプログラムキーでデータ同期",
+    "inputPlaceholder": "openid / 同期キーを貼り付け",
+    "cancelBtn": "キャンセル",
+    "confirmSyncBtn": "同期を確定",
+    "emptyKeyAlert": "同期キーを貼り付けてください",
+    "syncSuccessAlert": "ミニプログラムデータ同期完了",
+    "syncFailAlert": "同期失敗",
+    "networkErrAlert": "ネットワークリクエストエラー",
+    "openInPiAlert": "Piブラウザでこのページを開いてください",
+    "loginSuccessAlert": "ログイン成功",
+    "loginFailPrefix": "ログイン失敗："
+  },
+  "cart": {
+    "pageTitle": "マイカート",
+    "loginEmptyTip": "先にマイページからログインしてください",
+    "emptyTip": "カートに商品がありません～",
+    "noSpec": "仕様なし",
+    "totalText": "合計：",
+    "settleBtn": "お会計へ",
+    "changeNumFailAlert": "数量変更に失敗しました",
+    "needLoginAlert": "先にログインしてください",
+    "emptyCartAlert": "カートに商品が入っていません",
+    "orderSuccessPrefix": "注文作成完了！\n注文番号：",
+    "orderAmountSuffix": "\n合計金額：",
+    "orderFailPrefix": "注文作成失敗：",
+    "networkErrAlert": "ネットワークリクエストエラー"
+  },
+  "orderList": {
+    "pageTitle": "注文センター",
+    "noLoginTip": "ログインしていません。マイページへ行きPiログインを完了させてください",
+    "orderNoLabel": "注文番号：",
+    "createTimeLabel": "作成時間：",
+    "totalLabel": "合計：",
+    "delBtn": "注文削除",
+    "emptyTip": "注文記録がありません",
+    "needLoginAlert": "操作するにはログインが必要です",
+    "delConfirmTip": "未払い注文を削除しますか？削除後データは復旧できません",
+    "delSuccessAlert": "削除完了",
+    "networkFailAlert": "ネットワークリクエスト失敗、後ほど再試行してください"
+  },
+  "orderDetail": {
+    "pageTitle": "注文詳細",
+    "statusLabel": "状態：",
+    "orderNoLabel": "注文番号：",
+    "createTimeLabel": "注文時間：",
+    "goodsTitle": "商品一覧",
+    "specLabel": "仕様：",
+    "noSpec": "なし",
+    "subTotalLabel": "商品小計：",
+    "actualPayLabel": "実支払額：",
+    "payLoadingText": "お支払い処理中...",
+    "payBtnText": "今すぐ支払う",
+    "loginTipText": "先にマイページからログインしてください",
+    "emptyTipText": "注文が存在しない、または読み込み失敗",
+    "payMemoPrefix": "注文支払い：",
+    "openInPiAlert": "Piブラウザでページを開いてください",
+    "paySuccessAlert": "✅ 支払い完了、注文状態を更新しました",
+    "payCancelAlert": "お支払いをキャンセルしました",
+    "payErrorPrefix": "お支払いエラー：",
+    "payStartFailPrefix": "支払い起動失敗："
+  },
+  "about": {
+    "loading": "動画を読み込み中..."
+  },
+  "tipMemo": "チップ：{orderId}"
+}

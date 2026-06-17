@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>派之优品 Pizyp</title>
+    <!-- 只保留Font Awesome 6.4 一套 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <!-- async异步加载，不阻塞DOM渲染 -->
+    <script src="https://sdk.minepi.com/pi-sdk.js" async></script>
+    <script>
+      // 本地调试：true；正式网站/App Studio打包务必改成 false
+      const IS_SANDBOX = true;
+      window.addEventListener("load", () => {
+        if (window.Pi) {
+          window.Pi.init({
+            version: "2.0",
+            sandbox: IS_SANDBOX,
+          });
+        } else {
+          const s = document.createElement("script");
+          s.src = "./pi-sdk.js";
+          s.onload = () => {
+            window.Pi.init({
+              version: "2.0",
+              sandbox: IS_SANDBOX,
+            });
+          };
+          document.body.appendChild(s);
+        }
+      });
+    </script>
+    <script type="module" src="./src/main.ts"></script>
+  </body>
+</html>

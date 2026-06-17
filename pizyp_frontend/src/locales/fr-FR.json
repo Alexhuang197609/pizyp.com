@@ -1,0 +1,199 @@
+{
+  "welcome": {
+    "guestTag": "🎉Invité🎉",
+    "loginTip": "Connectez-vous : ",
+    "loginBtn": "Connexion Pi",
+    "tipBtn": "Donner un pourboire de 0,01 TestPi"
+  },
+  "loading": {
+    "community": "Chargement des données de la communauté..."
+  },
+  "error": {
+    "loadFail": "Échec du chargement, actualisez la page"
+  },
+  "videoTip": "Votre navigateur ne prend pas en charge la lecture vidéo",
+  "action": {
+    "like": "J'aime",
+    "comment": "Commenter"
+  },
+  "loginAlert": {
+    "piBrowser": "Ouvrez la page dans le navigateur Pi !",
+    "success": "Connexion réussie !",
+    "fail": "Échec de connexion : ",
+    "needLogin": "Veuillez vous connecter d'abord"
+  },
+  "payAlert": {
+    "approveFail": "Échec de validation, code statut : ",
+    "approveErr": "Erreur requête validation : ",
+    "completeFail": "Échec de finalisation, code statut : ",
+    "completeErr": "Erreur requête finalisation : ",
+    "paySuccess": "✅ Paiement terminé",
+    "cancelPay": "Annulé",
+    "payErr": "Erreur de paiement : ",
+    "payFail": "Échec du paiement : "
+  },
+  "tab": {
+    "community": "Communauté",
+    "mall": "Boutique",
+    "contract": "Contrat intelligent",
+    "mine": "Mon compte"
+  },
+  "shop": {
+    "title": "🏪 Boutique",
+    "loading": "Chargement des produits...",
+    "stock": "Stock : "
+  },
+  "shopDetail": {
+    "backText": "Retour à la boutique",
+    "pageTitle": "Détails du produit",
+    "loading": "Chargement...",
+    "idError": "ID produit invalide",
+    "fetchFail": "Impossible de récupérer le produit",
+    "networkErr": "Erreur réseau ou API",
+    "spec": "Caractéristique : ",
+    "stock": "Stock : ",
+    "sales": "Ventes : ",
+    "ship": "Livraison : ",
+    "briefTitle": "Présentation courte",
+    "detailTitle": "Détails du produit",
+    "cartBtn": "Ajouter au panier",
+    "buyBtn": "Acheter maintenant",
+    "needLogin": "Veuillez vous connecter d'abord",
+    "cartSuccess": "✅ Ajouté au panier !",
+    "cartFail": "❌ Échec : ",
+    "orderSuccess": "✅ Commande créée !\nN° de commande : ",
+    "orderAmount": "\nMontant : ",
+    "orderFail": "❌ Échec création commande : "
+  },
+  "contract": {
+    "title": "📄 Contrat intelligent",
+    "loading": "Chargement des données du contrat...",
+    "statusLabel": "Statut : ",
+    "addrLabel": "Adresse du contrat : "
+  },
+  "browser": {
+    "loading": "Chargement des données des blocs...",
+    "invalidAddr": "Adresse de contrat invalide",
+    "tokenSuffix": "Contrat de token",
+    "addrLabel": "Adresse du contrat : ",
+    "descLabel": "Description : ",
+    "statusLabel": "Statut d'exécution : ",
+    "colAccount": "Compte",
+    "colOperation": "Opération",
+    "colLedgerTime": "Bloc / Heure"
+  },
+  "zodiacGame": {
+    "title": "Jeu de devinette du zodiaque",
+    "desc": "Jeu de prédiction sur chaîne, pariez, tirez au sort et récupérez vos récompenses via des contrats intelligents",
+    "personUnit": "joueurs",
+    "needDrawText": "Il manque {num} joueurs pour le tirage automatique",
+    "btnSelectTip": "Choisissez un signe du zodiaque pour parier",
+    "btnBetFormat": "Parier 1π sur {name}",
+    "alertSelectZod": "Veuillez choisir un signe du zodiaque",
+    "alertCloseTip": "Le contrat est déployé, attendez le lancement officiel de l'API"
+  },
+  "addressTx": {
+    "backText": "Retour",
+    "pageTitle": "Historique des transactions de l'adresse",
+    "loading": "Chargement...",
+    "invalidAddr": "Adresse de portefeuille invalide",
+    "addrLabel": "Adresse du portefeuille",
+    "txCountText": "Total {num} transactions",
+    "colAccount": "Compte",
+    "colOperation": "Opération",
+    "colLedgerTime": "Bloc / Heure"
+  },
+  "txDetail": {
+    "backText": "Retour",
+    "pageTitle": "Détails de la transaction",
+    "infoTitle": "Informations de la transaction",
+    "hashLabel": "Hash transaction : ",
+    "ledgerLabel": "Bloc : ",
+    "timeLabel": "Heure de transaction : ",
+    "fromLabel": "Expéditeur : ",
+    "toLabel": "Destinataire : ",
+    "amountLabel": "Montant : ",
+    "typeLabel": "Type de transaction : ",
+    "loading": "Chargement...",
+    "invalidHash": "Hash de transaction invalide"
+  },
+  "my": {
+    "pageTitle": "Espace utilisateur",
+    "uidLabel": "uid : ",
+    "piNameLabel": "piname : ",
+    "walletLabel": "Portefeuille : ",
+    "miniNick": "Pseudo",
+    "upiNum": "Solde UPI",
+    "noSync": "Aucune donnée synchronisée",
+    "syncBtn": "Synchroniser avec la clé secrète mini-programme",
+    "cartMenu": "Panier",
+    "orderMenu": "Mes commandes",
+    "aboutMenu": "À propos de nous",
+    "noLoginTip": "Vous n'êtes pas connecté, veuillez vous identifier",
+    "piLoginBtn": "Connexion Pi",
+    "modalTitle": "Synchroniser les données avec la clé secrète mini-programme",
+    "inputPlaceholder": "Collez openid / clé de synchronisation",
+    "cancelBtn": "Annuler",
+    "confirmSyncBtn": "Confirmer la synchronisation",
+    "emptyKeyAlert": "Veuillez coller la clé de synchronisation",
+    "syncSuccessAlert": "Données mini-programme synchronisées avec succès",
+    "syncFailAlert": "Échec de la synchronisation",
+    "networkErrAlert": "Erreur de requête réseau",
+    "openInPiAlert": "Ouvrez cette page dans le navigateur Pi",
+    "loginSuccessAlert": "Connexion réussie",
+    "loginFailPrefix": "Échec de connexion : "
+  },
+  "cart": {
+    "pageTitle": "Mon panier",
+    "loginEmptyTip": "Connectez-vous d'abord dans l'espace utilisateur",
+    "emptyTip": "Votre panier est vide~",
+    "noSpec": "Aucune caractéristique",
+    "totalText": "Total : ",
+    "settleBtn": "Passer la commande",
+    "changeNumFailAlert": "Impossible de modifier la quantité",
+    "needLoginAlert": "Veuillez vous connecter d'abord",
+    "emptyCartAlert": "Aucun produit dans le panier",
+    "orderSuccessPrefix": "Commande créée !\nN° de commande : ",
+    "orderAmountSuffix": "\nTotal : ",
+    "orderFailPrefix": "Échec de la commande : ",
+    "networkErrAlert": "Erreur de requête réseau"
+  },
+  "orderList": {
+    "pageTitle": "Centre de commandes",
+    "noLoginTip": "Vous n'êtes pas connecté, allez dans l'espace utilisateur pour vous connecter avec Pi",
+    "orderNoLabel": "N° de commande : ",
+    "createTimeLabel": "Date de création : ",
+    "totalLabel": "Total : ",
+    "delBtn": "Supprimer la commande",
+    "emptyTip": "Aucun enregistrement de commande",
+    "needLoginAlert": "Connectez-vous pour effectuer cette action",
+    "delConfirmTip": "Confirmez la suppression de cette commande impayée ? Les données ne pourront pas être récupérées",
+    "delSuccessAlert": "Supprimé avec succès",
+    "networkFailAlert": "Échec de la requête réseau, réessayez plus tard"
+  },
+  "orderDetail": {
+    "pageTitle": "Détails de la commande",
+    "statusLabel": "Statut : ",
+    "orderNoLabel": "N° de commande : ",
+    "createTimeLabel": "Date de création : ",
+    "goodsTitle": "Liste des produits",
+    "specLabel": "Caractéristique : ",
+    "noSpec": "Aucune",
+    "subTotalLabel": "Sous-total : ",
+    "actualPayLabel": "Montant payé : ",
+    "payLoadingText": "Traitement du paiement...",
+    "payBtnText": "Payer maintenant",
+    "loginTipText": "Connectez-vous d'abord dans l'espace utilisateur",
+    "emptyTipText": "La commande n'existe pas ou échec du chargement",
+    "payMemoPrefix": "Paiement de commande : ",
+    "openInPiAlert": "Ouvrez la page dans le navigateur Pi",
+    "paySuccessAlert": "✅ Paiement effectué, statut de commande mis à jour",
+    "payCancelAlert": "Paiement annulé",
+    "payErrorPrefix": "Erreur de paiement : ",
+    "payStartFailPrefix": "Échec du lancement du paiement : "
+  },
+  "about": {
+    "loading": "Chargement de la vidéo..."
+  },
+  "tipMemo": "Pourboire : {orderId}"
+}

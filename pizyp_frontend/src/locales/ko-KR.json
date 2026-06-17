@@ -1,0 +1,199 @@
+{
+  "welcome": {
+    "guestTag": "🎉게스트🎉",
+    "loginTip": "로그인하세요: ",
+    "loginBtn": "Pi 로그인",
+    "tipBtn": "0.01 TestPi 팁 보내기"
+  },
+  "loading": {
+    "community": "커뮤니티 데이터 불러오는 중..."
+  },
+  "error": {
+    "loadFail": "불러오기 실패, 페이지를 새로고침하세요"
+  },
+  "videoTip": "사용 중인 브라우저에서 동영상 재생을 지원하지 않습니다",
+  "action": {
+    "like": "좋아요",
+    "comment": "댓글"
+  },
+  "loginAlert": {
+    "piBrowser": "Pi 브라우저로 페이지를 열어주세요!",
+    "success": "로그인 성공!",
+    "fail": "로그인 실패: ",
+    "needLogin": "먼저 로그인하세요"
+  },
+  "payAlert": {
+    "approveFail": "승인 처리 실패, 상태 코드: ",
+    "approveErr": "승인 요청 오류: ",
+    "completeFail": "완료 처리 실패, 상태 코드: ",
+    "completeErr": "완료 요청 오류: ",
+    "paySuccess": "✅ 결제 완료",
+    "cancelPay": "취소됨",
+    "payErr": "결제 오류: ",
+    "payFail": "결제 실패: "
+  },
+  "tab": {
+    "community": "커뮤니티",
+    "mall": "쇼핑몰",
+    "contract": "스마트 컨트랙트",
+    "mine": "마이페이지"
+  },
+  "shop": {
+    "title": "🏪 쇼핑몰",
+    "loading": "상품 데이터 불러오는 중...",
+    "stock": "재고: "
+  },
+  "shopDetail": {
+    "backText": "쇼핑몰로 돌아가기",
+    "pageTitle": "상품 상세",
+    "loading": "불러오는 중...",
+    "idError": "상품 ID가 유효하지 않습니다",
+    "fetchFail": "상품 정보를 불러올 수 없습니다",
+    "networkErr": "네트워크 또는 API 오류",
+    "spec": "규격: ",
+    "stock": "재고: ",
+    "sales": "판매량: ",
+    "ship": "배송: ",
+    "briefTitle": "상품 개요",
+    "detailTitle": "상품 상세 정보",
+    "cartBtn": "장바구니 담기",
+    "buyBtn": "바로 구매",
+    "needLogin": "먼저 로그인하세요",
+    "cartSuccess": "✅ 장바구니에 담았습니다!",
+    "cartFail": "❌ 실패: ",
+    "orderSuccess": "✅ 주문 생성 완료!\n주문 번호: ",
+    "orderAmount": "\n금액: ",
+    "orderFail": "❌ 주문 생성 실패: "
+  },
+  "contract": {
+    "title": "📄 스마트 컨트랙트",
+    "loading": "컨트랙트 데이터 불러오는 중...",
+    "statusLabel": "상태: ",
+    "addrLabel": "컨트랙트 주소: "
+  },
+  "browser": {
+    "loading": "블록 데이터 불러오는 중...",
+    "invalidAddr": "유효하지 않은 컨트랙트 주소",
+    "tokenSuffix": "토큰 컨트랙트",
+    "addrLabel": "컨트랙트 주소: ",
+    "descLabel": "설명: ",
+    "statusLabel": "실행 상태: ",
+    "colAccount": "계정",
+    "colOperation": "작업",
+    "colLedgerTime": "블록 / 시간"
+  },
+  "zodiacGame": {
+    "title": "띠 맞추기 게임",
+    "desc": "블록체인 예측 게임, 스마트 컨트랙트로 베팅, 추첨, 보상 수령 가능",
+    "personUnit": "참가자",
+    "needDrawText": "자동 추첨까지 {num}명 더 필요",
+    "btnSelectTip": "베팅할 띠를 선택하세요",
+    "btnBetFormat": "{name}에 1π 베팅",
+    "alertSelectZod": "띠를 선택해주세요",
+    "alertCloseTip": "컨트랙트 배포 완료, 공식 API 오픈 대기 중"
+  },
+  "addressTx": {
+    "backText": "돌아가기",
+    "pageTitle": "주소 거래 기록",
+    "loading": "불러오는 중...",
+    "invalidAddr": "유효하지 않은 지갑 주소",
+    "addrLabel": "지갑 주소",
+    "txCountText": "총 {num}건 거래",
+    "colAccount": "계정",
+    "colOperation": "작업",
+    "colLedgerTime": "블록 / 시간"
+  },
+  "txDetail": {
+    "backText": "돌아가기",
+    "pageTitle": "거래 상세",
+    "infoTitle": "거래 정보",
+    "hashLabel": "거래 해시: ",
+    "ledgerLabel": "블록 높이: ",
+    "timeLabel": "거래 시간: ",
+    "fromLabel": "발신자: ",
+    "toLabel": "수신자: ",
+    "amountLabel": "금액: ",
+    "typeLabel": "거래 유형: ",
+    "loading": "불러오는 중...",
+    "invalidHash": "유효하지 않은 거래 해시"
+  },
+  "my": {
+    "pageTitle": "마이페이지",
+    "uidLabel": "uid: ",
+    "piNameLabel": "piname: ",
+    "walletLabel": "지갑: ",
+    "miniNick": "닉네임",
+    "upiNum": "UPI 잔액",
+    "noSync": "동기화 데이터 없음",
+    "syncBtn": "미니프로그램 키로 일괄 동기화",
+    "cartMenu": "장바구니",
+    "orderMenu": "주문 목록",
+    "aboutMenu": "회사 소개",
+    "noLoginTip": "로그인하지 않았습니다. 로그인하세요",
+    "piLoginBtn": "Pi 로그인",
+    "modalTitle": "미니프로그램 키로 데이터 동기화",
+    "inputPlaceholder": "openid / 동기화 키 붙여넣기",
+    "cancelBtn": "취소",
+    "confirmSyncBtn": "동기화 확인",
+    "emptyKeyAlert": "동기화 키를 붙여넣어 주세요",
+    "syncSuccessAlert": "미니프로그램 데이터 동기화 완료",
+    "syncFailAlert": "동기화 실패",
+    "networkErrAlert": "네트워크 요청 오류",
+    "openInPiAlert": "Pi 브라우저로 이 페이지를 열어주세요",
+    "loginSuccessAlert": "로그인 성공",
+    "loginFailPrefix": "로그인 실패: "
+  },
+  "cart": {
+    "pageTitle": "내 장바구니",
+    "loginEmptyTip": "먼저 마이페이지에서 로그인하세요",
+    "emptyTip": "장바구니에 상품이 없어요~",
+    "noSpec": "규격 없음",
+    "totalText": "합계: ",
+    "settleBtn": "결제하기",
+    "changeNumFailAlert": "수량 변경에 실패했습니다",
+    "needLoginAlert": "먼저 로그인하세요",
+    "emptyCartAlert": "장바구니에 상품이 없습니다",
+    "orderSuccessPrefix": "주문 생성 완료!\n주문 번호: ",
+    "orderAmountSuffix": "\n총 금액: ",
+    "orderFailPrefix": "주문 생성 실패: ",
+    "networkErrAlert": "네트워크 요청 오류"
+  },
+  "orderList": {
+    "pageTitle": "주문 센터",
+    "noLoginTip": "로그인하지 않았습니다. 마이페이지로 이동해 Pi 로그인을 완료하세요",
+    "orderNoLabel": "주문 번호: ",
+    "createTimeLabel": "생성 시간: ",
+    "totalLabel": "합계: ",
+    "delBtn": "주문 삭제",
+    "emptyTip": "주문 기록 없음",
+    "needLoginAlert": "작업하려면 로그인이 필요합니다",
+    "delConfirmTip": "미결제 주문을 삭제할까요? 삭제 후 데이터 복구 불가",
+    "delSuccessAlert": "삭제 완료",
+    "networkFailAlert": "네트워크 요청 실패, 잠시 후 다시 시도하세요"
+  },
+  "orderDetail": {
+    "pageTitle": "주문 상세",
+    "statusLabel": "상태: ",
+    "orderNoLabel": "주문 번호: ",
+    "createTimeLabel": "주문 시간: ",
+    "goodsTitle": "상품 목록",
+    "specLabel": "규격: ",
+    "noSpec": "없음",
+    "subTotalLabel": "상품 소계: ",
+    "actualPayLabel": "실 결제 금액: ",
+    "payLoadingText": "결제 처리 중...",
+    "payBtnText": "바로 결제",
+    "loginTipText": "먼저 마이페이지에서 로그인하세요",
+    "emptyTipText": "주문이 존재하지 않거나 불러오기 실패",
+    "payMemoPrefix": "주문 결제: ",
+    "openInPiAlert": "Pi 브라우저로 페이지를 열어주세요",
+    "paySuccessAlert": "✅ 결제 완료, 주문 상태가 업데이트되었습니다",
+    "payCancelAlert": "결제가 취소되었습니다",
+    "payErrorPrefix": "결제 오류: ",
+    "payStartFailPrefix": "결제 실행 실패: "
+  },
+  "about": {
+    "loading": "영상 로딩 중..."
+  },
+  "tipMemo": "팁: {orderId}"
+}

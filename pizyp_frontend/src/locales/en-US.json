@@ -1,0 +1,199 @@
+{
+  "welcome": {
+    "guestTag": "🎉Guest🎉",
+    "loginTip": "Please log in: ",
+    "loginBtn": "Pi Login",
+    "tipBtn": "Tip 0.01 TestPi"
+  },
+  "loading": {
+    "community": "Loading community data..."
+  },
+  "error": {
+    "loadFail": "Load failed, please refresh"
+  },
+  "videoTip": "Your browser does not support video playback",
+  "action": {
+    "like": "Like",
+    "comment": "Comment"
+  },
+  "loginAlert": {
+    "piBrowser": "Open in Pi Browser!",
+    "success": "Login successful!",
+    "fail": "Login failed: ",
+    "needLogin": "Please log in first"
+  },
+  "payAlert": {
+    "approveFail": "Approve failed, status code: ",
+    "approveErr": "Approve request error: ",
+    "completeFail": "Complete failed, status code: ",
+    "completeErr": "Complete request error: ",
+    "paySuccess": "✅ Payment finished",
+    "cancelPay": "Cancelled",
+    "payErr": "Payment error: ",
+    "payFail": "Payment failed: "
+  },
+  "tab": {
+    "community": "Community",
+    "mall": "Mall",
+    "contract": "Smart Contract",
+    "mine": "Mine"
+  },
+  "shop": {
+    "title": "🏪 Mall",
+    "loading": "Loading goods...",
+    "stock": "Stock: "
+  },
+  "shopDetail": {
+    "backText": "Back to Mall",
+    "pageTitle": "Product Detail",
+    "loading": "Loading...",
+    "idError": "Invalid product ID",
+    "fetchFail": "Failed to get product",
+    "networkErr": "Network / API error",
+    "spec": "Spec: ",
+    "stock": "Stock: ",
+    "sales": "Sales: ",
+    "ship": "Ship: ",
+    "briefTitle": "Brief Intro",
+    "detailTitle": "Product Details",
+    "cartBtn": "Add to Cart",
+    "buyBtn": "Buy Now",
+    "needLogin": "Please log in first",
+    "cartSuccess": "✅ Added to cart!",
+    "cartFail": "❌ Failed: ",
+    "orderSuccess": "✅ Order created!\nOrder No.: ",
+    "orderAmount": "\nAmount: ",
+    "orderFail": "❌ Create order failed: "
+  },
+  "contract": {
+    "title": "📄 Smart Contract",
+    "loading": "Loading contract data...",
+    "statusLabel": "Status: ",
+    "addrLabel": "Contract Address: "
+  },
+  "browser": {
+    "loading": "Loading block data...",
+    "invalidAddr": "Invalid contract address",
+    "tokenSuffix": "Token Contract",
+    "addrLabel": "Contract Address: ",
+    "descLabel": "Description: ",
+    "statusLabel": "Running Status: ",
+    "colAccount": "Account",
+    "colOperation": "Operation",
+    "colLedgerTime": "Block / Time"
+  },
+  "zodiacGame": {
+    "title": "Zodiac Guess Game",
+    "desc": "On-chain guessing game, bet, draw and claim prize via smart contract",
+    "personUnit": "players",
+    "needDrawText": "Need {num} more players to auto draw",
+    "btnSelectTip": "Select a zodiac to bet",
+    "btnBetFormat": "Bet 1π on {name}",
+    "alertSelectZod": "Please select a zodiac",
+    "alertCloseTip": "Contract deployed, waiting for official API launch"
+  },
+  "addressTx": {
+    "backText": "Back",
+    "pageTitle": "Address Transaction Records",
+    "loading": "Loading...",
+    "invalidAddr": "Invalid wallet address",
+    "addrLabel": "Wallet Address",
+    "txCountText": "Total {num} transactions",
+    "colAccount": "Account",
+    "colOperation": "Operation",
+    "colLedgerTime": "Block / Time"
+  },
+  "txDetail": {
+    "backText": "Back",
+    "pageTitle": "Transaction Detail",
+    "infoTitle": "Transaction Info",
+    "hashLabel": "Tx Hash: ",
+    "ledgerLabel": "Ledger: ",
+    "timeLabel": "Tx Time: ",
+    "fromLabel": "From: ",
+    "toLabel": "To: ",
+    "amountLabel": "Amount: ",
+    "typeLabel": "Tx Type: ",
+    "loading": "Loading...",
+    "invalidHash": "Invalid transaction hash"
+  },
+  "my": {
+    "pageTitle": "User Center",
+    "uidLabel": "uid: ",
+    "piNameLabel": "piname: ",
+    "walletLabel": "Wallet: ",
+    "miniNick": "Nickname",
+    "upiNum": "UPI Balance",
+    "noSync": "No synced data",
+    "syncBtn": "Sync via Mini Program Secret",
+    "cartMenu": "Shopping Cart",
+    "orderMenu": "Order List",
+    "aboutMenu": "About Us",
+    "noLoginTip": "Not logged in, please sign in",
+    "piLoginBtn": "Login with Pi",
+    "modalTitle": "Sync data with mini program secret",
+    "inputPlaceholder": "Paste openid / sync secret",
+    "cancelBtn": "Cancel",
+    "confirmSyncBtn": "Confirm Sync",
+    "emptyKeyAlert": "Please paste sync secret",
+    "syncSuccessAlert": "Mini program data synced successfully",
+    "syncFailAlert": "Sync failed",
+    "networkErrAlert": "Network request error",
+    "openInPiAlert": "Open this page in Pi Browser",
+    "loginSuccessAlert": "Login successful",
+    "loginFailPrefix": "Login failed: "
+  },
+  "cart": {
+    "pageTitle": "My Cart",
+    "loginEmptyTip": "Log in at User Center first",
+    "emptyTip": "Your cart is empty~",
+    "noSpec": "No Spec",
+    "totalText": "Total: ",
+    "settleBtn": "Checkout",
+    "changeNumFailAlert": "Failed to update quantity",
+    "needLoginAlert": "Please log in first",
+    "emptyCartAlert": "No goods in cart",
+    "orderSuccessPrefix": "Order created!\nOrder No.: ",
+    "orderAmountSuffix": "\nTotal: ",
+    "orderFailPrefix": "Checkout failed: ",
+    "networkErrAlert": "Network request error"
+  },
+  "orderList": {
+    "pageTitle": "Order Center",
+    "noLoginTip": "Not logged in, go to User Center for Pi login",
+    "orderNoLabel": "Order No.: ",
+    "createTimeLabel": "Create Time: ",
+    "totalLabel": "Total: ",
+    "delBtn": "Delete Order",
+    "emptyTip": "No order records",
+    "needLoginAlert": "Please log in to operate",
+    "delConfirmTip": "Confirm delete unpaid order? Data cannot be recovered",
+    "delSuccessAlert": "Deleted successfully",
+    "networkFailAlert": "Network request failed, try later"
+  },
+  "orderDetail": {
+    "pageTitle": "Order Detail",
+    "statusLabel": "Status: ",
+    "orderNoLabel": "Order No.: ",
+    "createTimeLabel": "Create Time: ",
+    "goodsTitle": "Goods List",
+    "specLabel": "Spec: ",
+    "noSpec": "None",
+    "subTotalLabel": "Subtotal: ",
+    "actualPayLabel": "Actual Paid: ",
+    "payLoadingText": "Processing payment...",
+    "payBtnText": "Pay Now",
+    "loginTipText": "Please log in at User Center",
+    "emptyTipText": "Order not found or load failed",
+    "payMemoPrefix": "Order Payment: ",
+    "openInPiAlert": "Open page in Pi Browser",
+    "paySuccessAlert": "✅ Payment successful, order updated",
+    "payCancelAlert": "Payment cancelled",
+    "payErrorPrefix": "Payment error: ",
+    "payStartFailPrefix": "Failed to launch payment: "
+  },
+  "about": {
+    "loading": "Loading video..."
+  },
+  "tipMemo": "Tip Payment: {orderId}"
+}

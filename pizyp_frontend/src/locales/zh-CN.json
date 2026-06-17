@@ -1,0 +1,196 @@
+{
+  "welcome": {
+    "guestTag": "🎉游客🎉",
+    "loginTip": "请登录：",
+    "loginBtn": "pi授权登录",
+    "tipBtn": "打赏0.01TestPi"
+  },
+  "loading": {
+    "community": "优社群数据加载中..."
+  },
+  "error": {
+    "loadFail": "加载失败，请刷新重试"
+  },
+  "videoTip": "您的浏览器不支持视频播放",
+  "action": {
+    "like": "点赞",
+    "comment": "评论"
+  },
+  "loginAlert": {
+    "piBrowser": "请在 Pi 浏览器内打开！",
+    "success": "登录成功！",
+    "fail": "登录失败：",
+    "needLogin": "请先登录"
+  },
+  "payAlert": {
+    "approveFail": "approve 失败 状态码:",
+    "approveErr": "approve 请求异常:",
+    "completeFail": "complete 失败 状态码:",
+    "completeErr": "complete 请求异常:",
+    "paySuccess": "✅ 支付流程完成",
+    "cancelPay": "已取消",
+    "payErr": "支付错误: ",
+    "payFail": "支付失败: "
+  },
+  "tab": {
+    "community": "优社区",
+    "mall": "优商城",
+    "contract": "智能合约",
+    "mine": "我的"
+  },
+  "shop": {
+    "title": "🏪 优商城",
+    "loading": "商品数据加载中...",
+    "stock": "库存："
+  },
+  "shopDetail": {
+    "backText": "返回商城",
+    "pageTitle": "商品详情",
+    "loading": "加载中……",
+    "idError": "商品ID非法",
+    "fetchFail": "获取商品失败",
+    "networkErr": "网络/接口请求出错",
+    "spec": "规格：",
+    "stock": "库存：",
+    "sales": "销量：",
+    "ship": "发货：",
+    "briefTitle": "商品简介",
+    "detailTitle": "商品详情",
+    "cartBtn": "加入购物车",
+    "buyBtn": "立即购买",
+    "needLogin": "请先登录",
+    "cartSuccess": "✅ 加入购物车成功！",
+    "cartFail": "❌ 失败：",
+    "orderSuccess": "✅ 订单创建成功！\n订单号：",
+    "orderAmount": "\n金额：",
+    "orderFail": "❌ 创建订单失败："
+  },
+  "contract": {
+    "title": "📄 智能合约",
+    "loading": "合约数据加载中...",
+    "statusLabel": "状态：",
+    "addrLabel": "合约地址："
+  },
+  "browser": {
+    "loading": "区块数据加载中...",
+    "invalidAddr": "无效合约地址",
+    "tokenSuffix": "代币合约",
+    "addrLabel": "合约地址：",
+    "descLabel": "简介：",
+    "statusLabel": "运行状态：",
+    "colAccount": "账户",
+    "colOperation": "操作",
+    "colLedgerTime": "区块/时间"
+  },
+  "zodiacGame": {
+    "title": "生肖猜猜乐",
+    "desc": "链上猜奖游戏，押注、开奖、兑奖全部智能合约交互",
+    "personUnit": "人",
+    "needDrawText": "还差{num}人自动开奖",
+    "btnSelectTip": "请选择要押注的生肖",
+    "btnBetFormat": "押一注{name}，支付1π",
+    "alertSelectZod": "请选择生肖",
+    "alertCloseTip": "合约已部署，等待官方开放访问接口"
+  },
+  "addressTx": {
+    "backText": "返回",
+    "pageTitle": "地址交易记录",
+    "loading": "加载中...",
+    "invalidAddr": "无效钱包地址",
+    "addrLabel": "钱包地址",
+    "txCountText": "共 {num} 条交易记录",
+    "colAccount": "账户",
+    "colOperation": "操作",
+    "colLedgerTime": "区块/时间"
+  },
+  "txDetail": {
+    "backText": "返回",
+    "pageTitle": "交易详情",
+    "infoTitle": "交易信息",
+    "hashLabel": "交易哈希：",
+    "ledgerLabel": "区块高度：",
+    "timeLabel": "交易时间：",
+    "fromLabel": "转出账户：",
+    "toLabel": "转入账户：",
+    "amountLabel": "转账金额：",
+    "typeLabel": "交易类型：",
+    "loading": "加载中...",
+    "invalidHash": "无效交易哈希"
+  },
+  "my": {
+    "pageTitle": "用户中心",
+    "uidLabel": "uid：",
+    "piNameLabel": "piname：",
+    "walletLabel": "钱包：",
+    "miniNick": "昵称",
+    "upiNum": "UPI数量",
+    "noSync": "未获取同步",
+    "syncBtn": "粘贴小程序密钥一键同步",
+    "cartMenu": "购物车",
+    "orderMenu": "订单中心",
+    "aboutMenu": "关于我们",
+    "noLoginTip": "暂未登录，请先登录",
+    "piLoginBtn": "Pi授权登录",
+    "modalTitle": "粘贴小程序密钥同步数据",
+    "inputPlaceholder": "粘贴openid/同步密钥",
+    "cancelBtn": "取消",
+    "confirmSyncBtn": "确认同步",
+    "emptyKeyAlert": "请粘贴同步密钥",
+    "syncSuccessAlert": "小程序数据同步完成",
+    "syncFailAlert": "同步失败",
+    "networkErrAlert": "网络请求异常",
+    "openInPiAlert": "请在Pi浏览器打开页面",
+    "loginSuccessAlert": "登录成功",
+    "loginFailPrefix": "登录失败："
+  },
+  "cart": {
+    "pageTitle": "我的购物车",
+    "loginEmptyTip": "请先去我的页面登录",
+    "emptyTip": "购物车空空如也~",
+    "noSpec": "无规格",
+    "totalText": "合计：",
+    "settleBtn": "去结算",
+    "changeNumFailAlert": "数量修改失败",
+    "needLoginAlert": "请先登录",
+    "emptyCartAlert": "购物车暂无商品",
+    "orderSuccessPrefix": "订单创建成功！\n订单号：",
+    "orderAmountSuffix": "\n总金额：",
+    "orderFailPrefix": "下单失败：",
+    "networkErrAlert": "网络请求异常"
+  },
+  "orderList": {
+    "pageTitle": "订单中心",
+    "noLoginTip": "暂未登录，请前往用户中心完成Pi授权登录",
+    "orderNoLabel": "订单号：",
+    "createTimeLabel": "创建时间：",
+    "totalLabel": "合计：",
+    "delBtn": "删除订单",
+    "emptyTip": "暂无订单记录",
+    "needLoginAlert": "请先登录后操作",
+    "delConfirmTip": "确定删除该待支付订单？删除后数据无法恢复",
+    "delSuccessAlert": "删除成功",
+    "networkFailAlert": "网络请求失败，请稍后重试"
+  },
+  "orderDetail": {
+    "pageTitle": "订单详情",
+    "statusLabel": "订单状态：",
+    "orderNoLabel": "订单编号：",
+    "createTimeLabel": "下单时间：",
+    "goodsTitle": "商品明细",
+    "specLabel": "规格：",
+    "noSpec": "无",
+    "subTotalLabel": "商品总额：",
+    "actualPayLabel": "实付金额：",
+    "payLoadingText": "支付处理中...",
+    "payBtnText": "立即支付",
+    "loginTipText": "请先前往用户中心登录",
+    "emptyTipText": "订单不存在或加载失败",
+    "payMemoPrefix": "订单支付：",
+    "openInPiAlert": "请在Pi浏览器内打开页面",
+    "paySuccessAlert": "✅ 支付成功，订单状态已更新",
+    "payCancelAlert": "已取消本次支付",
+    "payErrorPrefix": "支付异常：",
+    "payStartFailPrefix": "启动支付失败："
+  },
+  "tipMemo": "测试打赏：{orderId}"
+}
